@@ -1,0 +1,28 @@
+package com.wilson.cursojava.aula11;
+
+public class VariavelChar {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * char o = 'o';
+		 * 
+		 * char i = 'i';
+		 */
+		
+		char o = 111;
+		
+		char i = 105;
+		
+		/* 
+		Quando você declara um 'char', pode inicializar com um número, pois o JAVA vai 'procurar' a 
+		correspondência na tabela ASCII/Unicode e retornar o caractere correspondente.
+		*/
+		
+		
+		
+		System.out.println( "" + o + i);
+		
+	}
+
+}

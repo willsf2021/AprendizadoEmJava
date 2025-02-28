@@ -1,0 +1,68 @@
+package com.wilson.cursojava.aula19.labs;
+
+public class ExerciciosVetores {
+
+	public static void main(String[] args) {
+		// Para execução de determinado exercício apenas "descomente" o código referente
+		// a ele.
+
+		/*
+		 * 
+		 * Ex1 - Criar um vetor A com 5 elementos inteiros. Construir um vetor B de
+		 * mesmo tipo e tamanho e com os "mesmos" elementos do vetor A, ou seja, B[i] =
+		 * A[i].
+		 * 
+		 */
+
+		// Início da Resolução do Exercício 1
+
+		/*
+		 * int[] a = new int[5]; int[] b = a;
+		 * 
+		 * for (int i = 0; i < a.length; i++) { a[i] = i + 2; b[i] = a[i];
+		 * System.out.println("Vetor A: " + a[i]); System.out.println("Vetor B: " +
+		 * b[i]); }
+		 */
+		  
+		  
+		/*
+		 * for (int temp : a) { System.out.println("Vetor B: " + temp); }
+		 */
+		  
+		
+		// Fim da Resolução do Exercício 1
+
+		/*
+		 * 
+		 * Ex2 - Criar um vetor A com 8 elementos inteiros. Construir um vetor B de
+		 * mesmo tipo e tamanho e com os elementos do vetor A multiplicados por 2, ou
+		 * seja: B[i] = A[i] * 2
+		 * 
+		 */
+
+		// Início da Resolução do Exercício 2
+
+		int[] a = new int[8];
+		
+		int[] b = a;
+		
+		for(int i = 0; i < a.length; i++) {
+			
+			a[i] = i * 4; // Atribuindo de forma automática valores às posições do Vetor A.
+			System.out.println("Vetor A: " + a[i]); // Mostrando o Vetor A;
+			b[i] = a[i] * 2; // Núcleo do exercício, cada posição do Vetor B é igual a posição equivalente do Vetor A multiplicado por 2.
+		}
+		
+		// Mostrando o Vetor B
+		
+		for(int temp :  b) {
+			System.out.println("Vetor B: " + temp);
+		}
+		
+		
+		
+		// Fim da Resolução do Exercício 2
+
+	}
+
+}

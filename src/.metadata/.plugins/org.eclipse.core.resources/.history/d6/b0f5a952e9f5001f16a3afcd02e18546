@@ -1,0 +1,34 @@
+package com.wilson.cursojava.aula19.labs;
+
+public class ExerciciosVetores {
+
+	public static void main(String[] args) {
+		// Para execução de determinado exercício apenas "descomente" o código referente a ele.
+		
+		
+		
+		/* 
+		 
+		Ex1 - Criar um vetor A com 5 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho e com os "mesmos" elementos do vetor A,
+		ou seja, B[i] = A[i].
+		
+		*/	
+		
+		// Início da Resolução do Exercício 1
+		
+		
+		int[] a = new int[5];
+		
+		for(int i = 0; i < a.length ; i++) {
+			a[i] = i + 2;
+		}
+		
+		System.out.println(a);
+		
+		
+		/* int[] b = a; */
+		
+		// Fim da Resolução do Exercício 1
+	}
+
+}

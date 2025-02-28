@@ -1,0 +1,27 @@
+package com.wilson.cursojava.aula19;
+
+public class Matrizes {
+
+	public static void main(String[] args) {
+		
+		
+		int qtdAlunos = 30;
+		
+		double[][] notasPorAluno = new double[qtdAlunos][4];
+		
+		
+		System.out.println(notasPorAluno.length);
+		
+		
+		for(int i = 0; i < notasPorAluno.length; i++) { // Primeiro Loop refere-se à posição do Eixo X, ou seja, dos Alunos
+			
+			for(double temp : notasPorAluno[i]) {
+				
+				System.out.println("Aluno " + i +  1 + "" + temp);
+			}
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.wilson.cursojava.aula11;
+
+public class CuriosidadeDosInteiros {
+
+	public static void main(String[] args) {
+		
+		
+		// int var1 está no intervalo de valores MÁXIMO permitido, o que acontece se eu somar o valor da mesma com int var2 = 100 e der o System.out.println?
+
+
+		int var1 = 2_147_483_647;
+		
+		int var2 = 100;
+		
+		
+		// P.S. Eu acredito que, vá imprimir normalmente, pois o println não armazena valores, ele apenas os mostra no console, desta forma não aloca espaço de memória.
+		System.out.println(var1 + var2);
+	}
+
+}

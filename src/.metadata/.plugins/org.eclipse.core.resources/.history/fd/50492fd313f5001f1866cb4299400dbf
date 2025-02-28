@@ -1,0 +1,15 @@
+package com.wilson.cursojava.aula11;
+
+public class CuriosidadeDosInteiros {
+
+	public static void main(String[] args) {
+
+
+		int idade03 = 2_147_483_647;
+		
+		long idade04 = 23;
+		
+		System.out.println(idade03);
+	}
+
+}
