@@ -1,0 +1,28 @@
+package com.wilson.cursojava.aula24.labs;
+
+public class TesteLampada {
+
+	public static void main(String[] args) {
+		
+		Lampada lampada = new Lampada();
+		
+		lampada.marca = "Osram";
+		lampada.cor = "Neutra";
+		lampada.tensao = "Bivolt";
+		
+		lampada.potencia = 18;
+		lampada.custo = 14;
+		lampada.preco = 23;
+		
+		System.out.println(lampada.marca);
+		System.out.println(lampada.cor);
+		System.out.println(lampada.tensao);
+		System.out.println(lampada.potencia);
+		System.out.println(lampada.custo);
+		System.out.println(lampada.preco);
+		
+		
+
+	}
+
+}

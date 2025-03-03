@@ -1,0 +1,10 @@
+package com.wilson.cursojava.aula24.labs;
+
+public class TesteLampada {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
